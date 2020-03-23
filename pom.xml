@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.5.RELEASE</version>
+        <version>2.2.5.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.calfgz.study</groupId>
@@ -17,13 +17,18 @@
 
     <modules>
         <module>recommend</module>
+        <module>java-basic</module>
+        <module>redis-lock</module>
+        <module>rabbitmq-api</module>
+        <module>rabbitmq-spring</module>
+        <module>intnet-1</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <springboot.version>2.1.5.RELEASE</springboot.version>
+        <springboot.version>2.2.5.RELEASE</springboot.version>
         <spring-kafka.version>2.2.6.RELEASE</spring-kafka.version>
         <skipTests>true</skipTests>
     </properties>
@@ -66,17 +71,14 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-jdbc</artifactId>
-                <version>${springboot.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-mongodb</artifactId>
-                <version>${springboot.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-redis</artifactId>
-                <version>${springboot.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.kafka</groupId>

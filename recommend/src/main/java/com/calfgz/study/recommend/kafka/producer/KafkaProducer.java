@@ -7,7 +7,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 
 /**
- * @author zhongwm
+ * @author calfgz
  * @title: KafkaProducer
  * @description: Kafka生产者
  * @date 2019-05-30 12:32

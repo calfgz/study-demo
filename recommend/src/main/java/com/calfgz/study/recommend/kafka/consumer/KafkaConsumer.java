@@ -5,7 +5,7 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
 /**
- * @author zhongwm
+ * @author calfgz
  * @title: KafkaConsumer
  * @description: 消费者
  * @date 2019-05-30 13:51
